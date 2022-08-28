@@ -1,0 +1,30 @@
+{
+  "name": "str3-array-shock",
+  "version": "1.0.0",
+  "description": "- A `tasks` mappában mindent megtalálsz, az ott lévő fájlokban vannak  \r az instrukciók a megoldáshoz és a teszteléshez is.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test01 && npm run test02 && npm run test03 && npm run test04",
+    "test01": "node --experimental-vm-modules --no-warnings ./node_modules/jest/bin/jest __tests__/01_array_foreach.test.js",
+    "test02": "node --experimental-vm-modules --no-warnings ./node_modules/jest/bin/jest __tests__/02_array_sort.test.js",
+    "test03": "node --experimental-vm-modules --no-warnings ./node_modules/jest/bin/jest __tests__/03_array_filter.test.js",
+    "test04": "node --experimental-vm-modules --no-warnings ./node_modules/jest/bin/jest __tests__/04_array_map.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Strukturavaltas-03-Frontend-2022/str3-function-shock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Strukturavaltas-03-Frontend-2022/str3-function-shock/issues"
+  },
+  "homepage": "https://github.com/Strukturavaltas-03-Frontend-2022/str3-function-shock#readme",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@types/jest": "^28.1.7",
+    "jest": "^28.1.3"
+  }
+}
